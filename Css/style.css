@@ -54,7 +54,7 @@ h3 {
 }
 
 h1 { font-size: var(--fs-h1);}
-h2 { font-size: var(--fs-h2);}
+h2 { font-size: 40px;}
 h3 { font-size: var(--fs-h3);}
 
 .section__title {
@@ -72,6 +72,7 @@ h3 { font-size: var(--fs-h3);}
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
 }
 
 .section__subtitle--intro,
