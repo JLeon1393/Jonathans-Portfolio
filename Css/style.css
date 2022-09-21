@@ -12,22 +12,28 @@
     --fw-bold: 900;
 
     --clr-light: white;
-    --clr-dark: #303030;
+    --clr-dark: black;
     --clr-accent: #16e0bd;
 
-    --fs-h1: 3rem;
+    --fs-h1: 55px;
     --fs-h2: 40px;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
+    --fs-h3: 20px;
+    --fs-body: 18px;
 }
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-h1: 72px;
+        --fs-h2: 60px;
+        --fs-h3: 24px;
+        --fs-body: 18px;
     }
+}
+
+.header {
+    background: black;
+    background-image: url(../Images/red-wavy-with-halftone-background_1409-1274.jpg);
+    background-size: cover;
 }
 
 body {
@@ -53,16 +59,24 @@ h3 {
     margin: 0;
 }
 
-h1 { font-size: var(--fs-h1);}
+h1 { font-size: var(--fs-h1);
+    padding: 20px;
+    background-color: rgb(198, 18, 18);
+    display: inline-block;}
 h2 { font-size: var(--fs-h2);}
 h3 { font-size: var(--fs-h3);}
+
+ul li {
+    font-size: 40px;
+    display: block;
+}
 
 a {
     display: inline-block;
 }
 
 .section__title {
-    margin-bottom: .25em;
+    margin-bottom: 4px;
 }
 
 .section__title--intro {
@@ -82,15 +96,15 @@ a {
 .section__subtitle--intro,
 .section__subtitle--about {
     background: var(--clr-accent);
-    padding: .25em 1em;
+    padding: 4px 16px;
     font-family: var(--ff-secondary);
-    margin-bottom: 1em;
+    margin-bottom: 16px;
 }
 
 .section__subtitle--work {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
-    margin-bottom: 2em;
+    margin-bottom: 32px;
 }
 
 nav { display: none;}
@@ -108,7 +122,7 @@ nav { display: none;}
         display: grid;
         width: min-content;
         margin: 0 auto;
-        column-gap: 1em;
+        column-gap: 16px;
         grid-template-areas:
             "img title"
             "img subtitle";
@@ -128,8 +142,8 @@ nav { display: none;}
         grid-row: 2;
         text-align: right;
         position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+        left: -24px;
+        width: calc(100% + 24px);
     }
 }
 
@@ -150,15 +164,15 @@ nav { display: none;}
 .section__title--services::after {
     content: '';
     display: block;
-    width: 2em;
+    width: 32px;
     height: 1px;
-    margin: 0.5em auto 1em;
+    margin: 8px auto 16px;
     background: var(--clr-light);
     opacity: 0.5;
 }
 
 .services {
-    margin-bottom: 4em;
+    margin-bottom: 64px;
 }
 
 .service {
@@ -175,7 +189,7 @@ nav { display: none;}
     }
 
     .service + .service {
-        margin-left: 2em;
+        margin-left: 32px;
     }
 }
 
@@ -196,7 +210,7 @@ nav { display: none;}
             "title img"
             "subtitle img"
             "text img";
-        column-gap: 2em;
+        column-gap: 32px;
     }
 
     .section__title--about {
@@ -207,10 +221,10 @@ nav { display: none;}
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
+        left: -32px;
+        width: calc(100% + 32px);
+        padding-left: 16px;
+        padding-right: calc(200px + 64px);
     }
 
     .about-me__img {
