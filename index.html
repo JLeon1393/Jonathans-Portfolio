@@ -10,52 +10,42 @@
     </head>
 
     <body>
-        <header>
-            <div class="logo">
-                <img src="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#Home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#My Work" class="nav__link">My Work</a></li>
-                    <li class="nav__item"><a href="#About Me" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#My Contact" class="nav__link">My Contact</a></li>
-                </ul>
-            </nav>
+        <header class="header">
+            <div id="home" class="home"></div>
+            <h1 class="section__title section__title--intro">
+                <strong>Jonathans Portfolio</strong>
+                <div>
+                    <ul>
+                        <li>
+                            <nav>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#my-work">My Work</a>
+                        </li>
+                        <li>
+                            <a href="#about-me">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#my-contact">My Contact</a>
+                            </nav>
+                        </li>
+                    </ul>
+                </div>
+
         </header>
 
 <!-- This is the Introduction-->
-        <section class="intro" id="Home">
-            <h1 class="section__title section__title--intro">
-                <strong>Jonathans Portfolio</strong>
-            </h1>
+        <section class="intro" id="home">
             <p class="section__subtitle section__subtitle--intro"></p>
             <img src="./Images/photography-city-lights-facebook-cover.jpg" alt="Picture of city lights and a road" class="intro__img">
-            <div>
-                <ul>
-                    <li>
-                        <nav>
-                            <a href="home" class="btn">Home</a>
-                        </li>
-                        <li>
-                            <a href="work" class="btn">My Work</a>
-                        </li>
-                        <li>
-                            <a href="about-me" class="btn">About Me</a>
-                        </li>
-                        <li>
-                            <a href="my-contact" class="btn">My Contact</a>
-                        </li>
-                    </nav>
-                </ul>
-            </div>
+            
         </section>
 
 <!-- This is my work-->
-        <section class="my-services" id="My-Work">
-            <h2 class="section__title section__title--work">My Work</h2>
+        <section class="my-services" id="my-work">
+            <div id="my-work" class="my-work"></div>
+            <h2 class="my-work">My Work</h2>
             <p class="section__subtitle section__subtitle--work">A selection of my work</p>
             <div class="Work">
                 <div class="Service">
@@ -83,10 +73,11 @@
         </section>
 
 <!-- This is the section about me-->
-        <section class="About-me" id="About-Me">
+        <section class="about-me" id="about-me">
+            <div id="about-me" class="about-me"></div>
             <h2 class="section__title section__title--about">About Me</h2>
             <p class="section__subtitle section__subtitle--about">Who I am</p>
-            <div class="About-me__body">
+            <div class="about-me__body">
                 <p></p>
                 <p></p>
 
@@ -95,7 +86,8 @@
         </section>
 
 <!-- This is my contact-->
-        <section class="my-contact" id="My-Contact">
+        <section class="my-contact" id="my-contact">
+            <div id="my-contact" class="my-contact"></div>
             <h2 class="section__title">My Contact</h2>
             <p class="section__subtitle">Where to contact me:</p>
 
