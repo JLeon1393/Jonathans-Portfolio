@@ -39,7 +39,7 @@
 }
 
 body {
-    background: var(--clr-light);
+    
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -146,6 +146,7 @@ nav { display: none;}
 
 @media (min-width: 600px) {
     .intro {
+        background: var(--clr-dark);
         display: flex;
         width: min-content;
         margin: 0 auto;
@@ -154,6 +155,10 @@ nav { display: none;}
             "img title"
             "img subtitle";
         grid-template-columns: min-content max-content;
+    }
+
+    .intro {
+        background: var(--clr-dark);
     }
 
     .intro__img {
@@ -175,8 +180,7 @@ nav { display: none;}
 }
 
 .my-services {
-    background-color: var(--clr-light);
-    background-image: url();
+    background: var(--clr-light);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
