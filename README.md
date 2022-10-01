@@ -6,4 +6,4 @@ This is the url to my Github repository, https://github.com/JLeon1393/Jonathans-
 
 This is the url to my portfolio, https://jleon1393.github.io/Jonathans-Portfolio/
 
-This is a screenshot to my portfolio, ![Jonathans-Portfolio-Website](https://user-images.githubusercontent.com/111095820/193366853-f26b43ce-ad04-4814-a8d0-8560977d5def.png)
+This is a screenshot to my portfolio, ![Jonathans-Portfolio-Website (1)](https://user-images.githubusercontent.com/111095820/193422595-b3e63b10-3742-4bf6-a11b-d07e3076d1b3.png)
