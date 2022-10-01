@@ -52,6 +52,11 @@ img {
     max-width: 100%;
 }
 
+.work__img {
+    display: flex;
+    width: 40em;
+}
+
 strong { 
     font-weight: var(--fw-bold);
     text-shadow: 2px 2px white;
@@ -93,6 +98,10 @@ a {
     margin-left: 30px;
     text-decoration: none;
     padding: 30px 0px 25px;
+}
+
+.work__img {
+    display: flex;
 }
 
 .section__title {
@@ -215,6 +224,13 @@ nav { display: none;}
 .service {
     max-width: 500px;
     margin: 0 auto;
+}
+
+.work__body {
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    float: inline-end;
+    font-size: var(--fs-h3);
 }
 
 @media (min-width: 800px) {
